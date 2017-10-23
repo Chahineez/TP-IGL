@@ -32,7 +32,7 @@ public class VectorHelper  {
 		 while ( i < vect1.length)
 		 {
 			 vect3[i]= vect1[i]+vect2[i];
-			 
+			 /*hello sarrouuche*/
 			 System.out.println("tableau3["+i+"]="+vect3[i]);
 			 i++;
 			 
@@ -42,7 +42,7 @@ public class VectorHelper  {
 
 	
 	/**
-	 * Cette méthode permet d'inverser les elements du vecteur1 en generant le vecteur2
+	 * Cette mÃ©thode permet d'inverser les elements du vecteur1 en generant le vecteur2
 	 * @param vect1 : vecteur1
 	 * @param vect2 : vecteur2
 	 * @throws LengthException : exception de taille
@@ -55,7 +55,7 @@ public class VectorHelper  {
 			while (i< vect1.length)
 			{
 				vect2[i]=vect1[9-i];
-				System.out.println("tab3 inversée="+vect2[i]);
+				System.out.println("tab3 inversÃ©e="+vect2[i]);
 				i++;
 			}
 		}
@@ -63,8 +63,8 @@ public class VectorHelper  {
 	
 	
 	/**
-	 * Cette méthode permet de multiplier les elements du vecteur par "x" qui est choisit par l'utilisateur
-	 * @param vect : le vecteur qui va etre multiplié par x
+	 * Cette mÃ©thode permet de multiplier les elements du vecteur par "x" qui est choisit par l'utilisateur
+	 * @param vect : le vecteur qui va etre multipliÃ© par x
 	 * @param x : l'entier multiplieur
 	 */
 	public static void multiplier(int[] vect,int x){
@@ -72,7 +72,7 @@ public class VectorHelper  {
 		while (i< vect.length)
 		{
 			vect[i]*=x;
-			System.out.println(" vecteur multiplié=" +vect[i]);
+			System.out.println(" vecteur multipliÃ©=" +vect[i]);
 			i++;
 		}
 		
