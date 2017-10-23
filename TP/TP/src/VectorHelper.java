@@ -32,8 +32,8 @@ public class VectorHelper  {
 		 while ( i < vect1.length)
 		 {
 			 vect3[i]= vect1[i]+vect2[i];
-			 
-			 System.out.println(" elementt L'element du  est tabtableau3["+i+"]="+vect3[i]);
+			 /*hello sarrouucheee*/
+			 System.out.println("helloooo tableau3["+i+"]="+vect3[i]);
 			 i++;
 			 
 		 }
